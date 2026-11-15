@@ -1,12 +1,12 @@
 # 网站部署说明
 
-本目录就是 GitHub Pages 站点的完整内容，可直接上传到 `Yang-s-Codehub.github.io` 仓库根目录。
+本目录是 GitHub Pages 站点的完整内容。
 
 ## 目录结构
 
 ```
 site/
-├── app-ads.txt                   AdMob 验证文件（必须位于根路径）
+├── app-ads.txt                   AdMob 验证文件
 ├── index.html                    门户首页（应用列表）
 ├── assets/
 │   ├── style.css                 全站样式
@@ -26,18 +26,6 @@ site/
 - 完整法律文档（Markdown）链接到
   `https://github.com/Yang-s-Codehub/Calcuverse/blob/main/legal/<文件名>`
 - 只有 `assets/hero-*.png` 保留在本地，因为应用仓库里没有对应图片
-
-## 部署步骤
-
-1. 新建仓库，名称必须是 `Yang-s-Codehub.github.io`，设为 Public。
-2. 进入 Settings → Pages，Source 选 `Deploy from a branch`，Branch 选 `main`，目录 `/ (root)`，保存。
-3. 把本目录**里面的内容**（不是 `site` 文件夹本身）上传到仓库根目录。
-4. 打开 `https://yang-s-codehub.github.io/` 确认首页正常。
-5. 打开 `https://yang-s-codehub.github.io/app-ads.txt` 确认能直接显示一行文本。
-
-## 必须修改的一项
-
-`app-ads.txt` 里的 `pub-0000000000000000` 要换成 AdMob 后台 **View Publisher ID** 的真实 ID。
 
 ## 以后新增应用
 
