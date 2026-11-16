@@ -39,7 +39,6 @@ site/
 ## 待替换的占位内容
 
 - 下载按钮当前是 `href="#" aria-disabled="true"` 的「即将上架」状态，拿到商店链接后去掉 `aria-disabled` 并填入真实 URL（`Calcuverse/index.html` 中有两处）。
-- 法律文档中的 `[your-contact-email@example.com]`、`[您的姓名或组织]`、`[城市，国家]` 等占位符尚未填写。
 
 ## 本地预览
 
